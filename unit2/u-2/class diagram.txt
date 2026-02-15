@@ -1,0 +1,74 @@
+UML Class Diagram
+ • Class diagram depicts a static view of an application
+ • It represents the types of objects residing in the system and the relationships between them
+ • A class consists of its objects, and also it may inherit from other classes
+ • A class diagram is used to visualize, describe, document various different aspects of the system, and also construct executable software code
+ • It shows the attributes, classes, functions, and relationships to give an overview of the software system
+ • It constitutes class names, attributes, and functions in a separate compartment that helps in software development
+ • Since it is a collection of classes, interfaces, associations, collaborations, and constraints, it is termed as a structural diagram
+ 
+
+
+• Purpose :
+ • The main purpose of class diagrams is to build a static view of an application
+ • It is the only diagram that is widely used for construction, and it can be mapped with object-oriented languages
+ • It is one of the most popular UML diagrams. 
+	1. It analyses and designs a static view of an application
+ 	2. It describes the major responsibilities of a system
+ 	3. It is a base for component and deployment diagrams
+ 	4. It incorporates forward and reverse engineering
+
+
+
+• Benefits of Class Diagrams :
+ 1. It can represent the object model for complex systems
+ 2. It reduces the maintenance time by providing an overview of how an application is structured before coding
+ 3. It provides a general schematic of an application for better understanding
+ 4. It represents a detailed chart by highlighting the desired code, which is to be programmed
+ 5. It is helpful for the stakeholders and the developers
+	• Vital components of a Class Diagram:  Made up of three sections
+ 		• Upper Section: The upper section encompasses the name of the class. A class is a representation of similar objects that shares the same relationships, attributes, operations, and semantics. Some of the following rules that should be taken into account while representing a class are given below:
+ 			• Capitalize the initial letter of the class name.
+ 			• Place the class name in the center of the upper section.
+ 			• A class name must be written in bold format.
+ 			• The name of the abstract class should be written in italics format
+		• Middle Section: The middle section constitutes the attributes, which describe the quality of the class. The attributes have the following characteristics:
+ 			• The attributes are written along with its visibility factors, which are public (+), private (-), protected (#), and package (~).
+ 			• The accessibility of an attribute class is illustrated by the visibility factors.
+			• A meaningful name should be assigned to the attribute, which will explain its usage inside the class.
+ 		• Lower Section: The lower section contain methods or operations. The methods are represented in the form of a list, where each method is written in a single line. It demonstrates how a class interacts with data
+
+
+
+
+relationship 
+•(dependency, aggregation, composition, generalization, multiplicity
+
+
+
+Abstract Classes
+ • No objects can be a direct entity of the abstract class
+ • The abstract class can neither be declared nor be instantiated
+ • It is used to find the functionalities across the classes
+ • The notation of the abstract class is similar to that of class; the only difference is that the name of the class is written in italics
+ • Since it does not involve any implementation for a given function, it is best to use the abstract class with multiple objects
+
+
+How to draw a Class Diagram?
+ 1. To describe a complete aspect of the system, it is suggested to give a meaningful name to the class diagram
+ 2. The objects and their relationships should be acknowledged in advance
+ 3. The attributes and methods (responsibilities) of each class must be known
+ 4. A minimum number of desired properties should be specified as more number of the unwanted property will lead to a complex diagram
+ 5. Notes can be used as and when required by the developer to describe the aspects of a diagram
+ 6. The diagrams should be redrawn and reworked as many times to make it correct before producing its final version
+
+
+Use of Class Diagram
+ • The class diagram is used to represent a static view of the system
+ • It plays an essential role in the establishment of the component and deployment diagrams
+ • It helps to construct an executable code to perform forward and backward engineering for any system, or we can say it is mainly used for construction
+ • It represents the mapping with object-oriented languages that are C++, Java, etc. 
+ • To describe the static view of a system
+ • To show the collaboration among every instance in the static view
+ • To describe the functionalities performed by the system
+ • To construct the software application using object-oriented language

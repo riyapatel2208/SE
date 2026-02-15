@@ -1,0 +1,20 @@
+In easy words, a **use case** in software engineering is a simple description of **how a user interacts with a system to achieve a goal**.
+
+It tells a short story like:
+
+- **Who** is using the system (the user or "actor")
+- **What** they want to do (the goal)
+- **How** the system responds (the steps or flow)
+
+### Example:
+For a **login system**, a use case could be:
+
+- **Actor**: User  
+- **Goal**: Log into the system  
+- **Steps**:
+  1. User enters username and password.
+  2. System checks the details.
+  3. If correct, the user is logged in.  
+  4. If wrong, an error is shown.
+
+So, use cases help developers understand **what the system should do from the user's point of view**.

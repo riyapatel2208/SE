@@ -1,0 +1,43 @@
+UML State Machine Diagram
+ • Also called the Statechart or State Transition diagram, which shows the order of states underwent by an object within the system
+ • It captures the software system's behavior
+ • It models the behavior of a class, a subsystem, a package, and a complete system
+ • It tends out to be an efficient way of modeling the interactions and collaborations in the external entities and the system
+ • It models event-based systems to handle the state of an object
+ • It also defines several distinct states of a component within the system
+ • Each object/component has a specific state
+ ---- Behavioral state machine : The behavioral state machine diagram records the behavior of an object within the system. It depicts an implementation of a particular entity. It models the behavior of the system
+ • It models event-based systems to handle the state of an object
+ • It also defines several distinct states of a component within the system
+ • Each object/component has a specific state
+ ---- Protocol state machine : It captures the behavior of the protocol. The protocol state machine depicts the change in the state of the protocol and parallel changes within the system. But it does not portray the implementation of a particular component
+
+
+Why State Machine Diagram?
+ • Since it records the dynamic view of a system, it portrays the behavior of a software application
+ • During a lifespan, an object underwent several states, such that the lifespan exist until the program is executing
+ • Each state depicts some useful information about the object
+ • It blueprints an interactive system that response back to either the internal events or the external ones
+ • The execution flow from one state to another is represented by a state machine diagram
+ • It visualizes an object state from its creation to its termination.
+ • The main purpose is to depict each state of an individual object
+ • It represents an interactive system and the entities inside the system
+ • It records the dynamic behavior of the system
+
+
+
+Notation of a State Machine Diagram
+slide no-92 (UML-2(1).pdf)
+
+
+How to Draw a State Machine Diagram?
+ • A unique and understandable name should be assigned to the state transition that describes the behavior of the system
+ • Out of multiple objects, only the essential objects are implemented
+ • A proper name should be given to the events and the transitions
+
+
+When to use a State Machine Diagram?
+ • For modeling the object states of a system
+ • For modeling the reactive system as it consists of reactive objects
+ • For pinpointing the events responsible for state transitions
+ • For implementing forward and reverse engineering

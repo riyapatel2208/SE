@@ -1,0 +1,34 @@
+Sequence Diagram
+ • Represents the flow of messages in the system and is also termed as an event diagram
+ • It helps in envisioning several dynamic scenarios
+ • It portrays the communication between any two lifelines as a timeordered sequence of events, such that these lifelines took part at the run time
+ • In UML, the lifeline is represented by a vertical bar, whereas the message flow is represented by a vertical dotted line that extends across the bottom of the page
+ • It incorporates the iterations as well as branching
+
+
+
+Purpose of a Sequence Diagram
+ 1. To model high-level interaction among active objects within a system
+ 2. To model interaction among objects inside a collaboration realizing a use case
+ 3. It either models generic interactions or some certain instances of interaction
+
+
+Notations of a Sequence Diagram
+slide no (53)
+
+
+Benefits of a Sequence Diagram
+ • It explores the real-time application
+ • It depicts the message flow between the different objects
+ • It has easy maintenance
+ • It is easy to generate
+ • Implement both forward and reverse engineering
+ • It can easily update as per the new change in the system
+
+
+Drawbacks of a Sequence Diagram
+ • In the case of too many lifelines, the sequence diagram can get more complex
+ • The incorrect result may be produced, if the order of the flow of messages changes
+ • Since each sequence needs distinct notations for its representation, it may make the diagram more complex
+ • The type of sequence is decided by the type of message
+

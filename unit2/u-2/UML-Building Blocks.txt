@@ -1,0 +1,161 @@
+*********************UML-Building Blocks************************
+ • UML is composed of three main building blocks
+ 	 • Things
+	 • Relationships
+	 • Diagrams
+ • Building blocks generate one complete UML model diagram by rotating around several different blocks
+ • It plays an essential role in developing UML diagrams
+
+---->(1) Things
+ • Anything that is a real world entity or object is termed as things. It can be divided into several different categories:
+ • Structural things
+	- Nouns that depicts the static behavior of a model is termed as structural things
+ 	- They display the physical and conceptual components
+ 	- They include class, object, interface, node, collaboration, component, and a use case
+
+ • Behavioral things
+ 	- They are the verbs that encompass the dynamic parts of a model
+	- It depicts the behavior of a system
+ 	- They involve state machine, activity diagram, interaction diagram, grouping things, annotation things
+
+ • Grouping things
+	- It is a method that together binds the elements of the UML model
+	- In UML, the package is the only thingwhich is used for grouping of behavioral and structural things
+
+ • Annotational things
+	- It is a mechanism that captures the remarks, descriptions, and comments of UML model elements
+	- In UML, a note is the only Annotational thing
+	- It is used to attach the constraints, comments, and rules to the elements of the model
+	- It is a kind of yellow sticky note.
+
+---->(2) relationship
+• It illustrates the meaningful connections between things
+• It shows the association between the entities and defines the functionality of an application
+• There are four types of relationships
+ • Dependency
+	- A kind of relationship in which a change in target element affects the source element, or simply we can say the source element is dependent on the target element
+	- It is one of the most important notations in UML
+	- It is used in class diagrams, component diagrams, deployment diagrams, and use-case diagrams, which indicates that a change to the supplier necessitates a change to the client
+	- It depicts the dependency from one entity to another.
+	- It is denoted by a dotted line followed by an arrow at one side as shown below
+	----Dependency---->
+
+ • Association 
+	- A set of links that associates the entities to the UML model
+	- It tells how many elements are actually taking part in forming that relationship
+	- It is denoted by a dotted line with arrowheads on both sides to describe the relationship with the element on both sides
+	<----Association ---->
+	- types are(Aggregation, Composition)
+
+ • Generalization
+	- It portrays the relationship between a general thing (a parent class or superclass) and a specific kind of that thing (a child class or subclass)
+	- It is used to describe the concept of inheritance
+	- It is denoted by a straight line followed by an empty arrowhead at one side
+	-Generalization->
+
+ • Realization
+	It is a semantic kind of relationship between two things, where one defines the behavior to be carried out, and the other one implements the mentioned behavior
+	It exists in interfaces
+	It is denoted by a dotted line with an empty arrowhead at one side
+	----Realization--->
+
+
+---->(3) Diagram
+
+ • Graphical implementation of the models that incorporate symbols and text
+ • Each symbol has a different meaning in the context of the UML diagram
+ • There are thirteen different types of UML diagrams that are available in UML 2.0
+ • Each diagram has its own set of a symbol
+ • And each diagram manifests a different dimension, perspective, and view of the system
+ • UML diagrams are classified into three categories 
+	• Structural Diagram
+		• Represents the static view of a system by portraying the structure of a system
+ 		• It shows several objects residing in the system
+ 		• Structural diagrams are:
+ 			• Class diagram
+ 			• Object diagram
+ 			• Package diagram
+ 			• Component diagram
+ 			• Deployment diagram
+
+ 	• Behavioral Diagram
+		• Depicts the behavioral features of a system
+ 		• Deals with dynamic parts of the system
+ 		• They are:
+ 			• Activity diagram
+ 			• State machine diagram
+ 			• Use case diagram
+
+ 	• Interaction Diagram
+		• A subset of behavioral diagrams
+ 		• Depicts the interaction between two objects and the data flow between them
+ 		• They are :
+			• Timing diagram
+ 			• Sequence diagram
+			• Collaboration diagram
+
+
+
+
+-------------------------------------------------------------------
+Here are definitions or key points for each UML diagram under the three categories:
+
+---
+
+### **1. Structural Diagrams**  
+(Show static structure of the system)
+
+- **Class Diagram**  
+  Represents the classes in a system, along with their attributes, methods, and relationships.
+
+- **Object Diagram**  
+  Shows instances (objects) of classes and their relationships at a specific moment in time.
+
+- **Package Diagram**  
+  Organizes elements into packages to show dependencies and organization of model elements.
+
+- **Component Diagram**  
+  Displays components (modular parts) of a system and their interrelationships, often used in system implementation.
+
+- **Deployment Diagram**  
+  Represents the physical deployment of artifacts (software) on hardware nodes.
+
+---
+
+### **2. Behavioral Diagrams**  
+(Focus on what the system does)
+
+- **Activity Diagram**  
+  Represents workflows of stepwise activities and actions with support for conditions and parallelism.
+
+- **State Machine Diagram**  
+  Describes the states an object goes through in response to events and the transitions between states.
+
+- **Use Case Diagram**  
+  Shows interactions between actors (users or other systems) and the system to capture system functionality.
+
+---
+
+### **3. Interaction Diagrams**  
+(Subset of behavioral diagrams showing interactions)
+
+- **Timing Diagram**  
+  Shows object states over time and is used to model timing constraints.
+
+- **Sequence Diagram**  
+  Illustrates the sequence of messages exchanged between objects to carry out a function or process.
+
+- **Collaboration Diagram** (also called Communication Diagram)  
+  Emphasizes the structural organization of the objects that send and receive messages.
+
+---
+
+Let me know if you'd like a chart or diagram version of this.
+
+
+
+
+
+
+
+

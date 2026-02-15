@@ -1,0 +1,50 @@
+UML Activity Diagram
+ • Is used to demonstrate the flow of control within the system rather than the implementation
+ • It models the concurrent and sequential activities
+ • The activity diagram helps in envisioning the workflow from one activity to another
+ • It put emphasis on the condition of flow and the order in which it occurs
+ • The flow can be sequential, branched, or concurrent, and to deal with such kinds of flows, the activity diagram has come up with a fork, join, etc
+ • It is also termed as an object-oriented flowchart
+ • It encompasses activities composed of a set of actions or operations that are applied to model the behavioral diagram
+
+
+
+Components of an Activity Diagram
+(1) Activity partition /swimlane
+(2) Forks
+(3) Join Nodes
+(4) Pins
+
+
+Notation of an Activity diagram
+slide no- 109
+
+
+Why use Activity Diagram?
+ • An event is created as an activity diagram encompassing a group of nodes associated with edges
+ • To model the behavior of activities, they can be attached to any modeling element
+ • It can model use cases, classes, interfaces, components, and collaborations
+ • It mainly models processes and workflows
+ • It envisions the dynamic behavior of the system as well as constructs a runnable system that incorporates forward and reverse engineering
+ • It does not include the message part, which means message flow is not represented in an activity diagram
+ • It is the same as that of a flowchart but not exactly a flowchart itself
+ • It is used to depict the flow between several activities
+
+
+How to draw an Activity Diagram?
+ • After gathering all the essential information, an abstract or a prototype is built, which is then transformed into the actual diagram
+ • Following are the rules that are to be followed for drawing an activity diagram:
+ 1. A meaningful name should be given to each and every activity
+ 2. Identify all of the constraints
+ 3. Acknowledge the activity associations
+
+
+
+When to use an Activity Diagram?
+ • To graphically model the workflow in an easier and understandable way
+ • To model the execution flow among several activities
+ • To model comprehensive information of a function or an algorithm employed within the system
+ • To model the business process and its workflow
+ • To envision the dynamic aspect of a system
+ • To generate the top-level flowcharts for representing the workflow of an application
+ • To represent a high-level view of a distributed or an object-oriented system

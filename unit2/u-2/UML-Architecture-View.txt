@@ -1,0 +1,55 @@
+UML-Architecture
+ • Software architecture is all about how a software system is built at its highest level
+ • It is needed to think big from multiple perspectives with quality and design in mind
+ • The software team is tied to many practical concerns, such as:
+ • The structure of the development team
+ • The needs of the business
+ • Development cycle
+ • The intent of the structure itself
+ • Software architecture provides a basic design of a complete software system
+ • It defines the elements included in the system, the functions each element has, and how each element relates to one another
+ • In short, it is a big picture or overall structure of the whole system, how everything works together
+ • To form an architecture, the software architect will take several factors into consideration:
+ • What will the system be used for?
+ • Who will be using the system?
+ • What quality matters to them?
+ • Where will the system run?
+ • The architect plans the structure of the system to meet the needs like these
+ • It is essential to have proper software architecture, mainly for a large software system
+ • Having a clear design of a complete system as a starting point provides a solid basis for developers to follow
+ • Each developer will know what needs to be implemented and how things relate to meet the desired needs efficiently
+ • One of the main advantages of software architecture is that it provides high productivity to the software team
+ • The software development becomes more effective as it comes up with an explained structure in place to coordinate work, implement individual features, or ground discussions on potential issues
+ • With a lucid architecture, it is easier to know where the key responsibilities are residing in the system and where to make changes to add new requirements or simply fixing the failures
+ • A clear architecture will help to achieve quality in the software with a well-designed structure using principles like separation of concerns
+ • The system becomes easier to maintain, reuse, and adapt
+ • The software architecture is useful to people such as software developers, the project manager, the client, and the end-user
+ • Each one will have different perspectives to view the system and will bring different agendas to a project
+ • Also, it provides a collection of several views. It can be best understood as a collection of five views:
+ 	• Use case view
+		• It is a view that shows the functionality of the system as perceived by external actors
+ 		• It reveals the requirements of the system
+ 		• With UML, it is easy to capture the static aspects of this view in the use case diagrams, whereas its dynamic aspects are captured in interaction diagrams, state chart diagrams, and activity diagrams
+
+ 	• Design view
+		• It is a view that shows how the functionality is designed inside the system in terms of static structure and dynamic behavior
+		• It captures the vocabulary of the problem space and solution space
+ 		• With UML, it represents the static aspects of this view in class and object diagrams, whereas its dynamic aspects are captured in interaction diagrams, state chart diagrams, and activity diagrams
+
+ 	• Implementation view
+		• It is the view that represents the organization of the core components and files
+ 		• It primarily addresses the configuration management of the system’s releases
+		• With UML, its static aspects are expressed in component diagrams, and the dynamic aspects are captured in interaction diagrams, state chart diagrams, and activity diagrams
+
+ 	• Process view
+		• It is the view that demonstrates the concurrency of the system
+ 		• It incorporates the threads and processes that make concurrent system and synchronized mechanisms
+ 		• It primarily addresses the system's scalability, throughput, and performance
+ 		• Its static and dynamic aspects are expressed the same way as the design view but focus more on the active classes that represent these threads and processes
+
+ 	• Development view
+		• It is the view that shows the deployment of the system in terms of physical architecture
+ 		• It includes the nodes, which form the system hardware topology where the system will be executed
+ 		• It primarily addresses the distribution, delivery, and installation of the parts that build the physical system
+
+	
