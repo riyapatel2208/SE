@@ -1,0 +1,79 @@
+25.1 REACTIVE Vs. PROACTIVE RISK STRATEGY 
+
+25.2 S/W RISKS : two characteristics, 
+Uncertainty : risk may or may not happen, no 100% probability 
+Loss : if risk becomes real, unwanted consequences / losses 
+Necessary to quantify uncertainty & degree of losses, categories are : 
+
+1.Project risk : threatens project plan, project schedule to slip, cost 
+increase, risks are - potential budgetary, schedule, personnel, resources & 
+requirement problems & their impact 
+2.Technical risks : threatens quality & timeliness, implementation 
+difficult, risks are - potential design, implementation, interfacing & 
+maintenance problem, specification ambiguity, technical uncertainty & 
+obsolescence, cause is underestimation 
+3.Business risks : viability of s/w, (1) market risk (2) strategic risks (3) 
+sales risk (4) management risk (5) budget risk 
+Other categorization is : 
+1. Known risks : uncovered by careful evaluation of project plan, business 
+& technical env, other info - unrealistic delivery data, poor development 
+env 
+2. Predictable risks : from past project experience, poor communication, 
+dilution of staff  effort, staff turnover etc 
+3. Unpredictable risks : do occur, difficult to identify in advance
+
+
+
+25.3 RISK IDENTIFICATION
+
+To identify risks, risks item checklist, focus on known & predictable risks, 
+subcategories are : 
+1. Product size : overall size of s/w 
+2. Business impact – constraints by mgmt & market 
+3. Customer characteristics : customer sophistication & communication 
+4. Process definition – degree of s/w process defined & followed 
+5. Development env : availability & quality of tools 
+6. Technology to be built – complexity & new tech 
+7. Staff size & experience – technical & project experience
+
+
+
+25.3.2 RISK COMPONENTS & DRIVERS : 
+Project manager must identify risk drivers that affect risk components – 
+performance, cost, support & schedule, defined as : 
+1. Performance risk : degree of uncertainty that product will meet its 
+requirements & fit for its intended use 
+2. Cost risks : project budget be maintained 
+3. Support risks : s/w easy to correct, adapt & enhance 
+4. Schedule risks : project schedule be maintained & on time delivery 
+ 
+Impact of risk drivers on risk components in 4 categories – negligible, 
+marginal, critical & catastrophic, figure indicates potential consequences of 
+errors & failure to achieve desired result
+
+
+
+
+25.4 RISK PROJECTION : 
+ 
+Risk projection/ estimation, rate each risk for its probability/likelihood that 
+risk on (1) risk is real & (2) consequences of problems if risks occur, risk 
+projection activities are : (1) establish a scale that indicate probability of risk 
+(2) delineate consequences of risk (3) impact of risk on project & product (4) 
+analyze risk projection
+
+25.4.1 Developing a Risk Table : Risk table a technique for risk projection,
+1.. catastrophic 
+2. critical 
+3. marginal 
+4. negligible 
+
+
+
+25.4.2 ASSESSING RISK IMPACT : determined by three factors – nature, 
+scope & timing, nature indicates problem ex poorly defined i/f to h/w lead 
+integration problem, scope refers severity & distribution, timing refers when 
+& how long, consequences of risk can be determined : 
+1. Determine avg prob of occurrence for each risk component 
+2. Using table, determine impact for each compo 
+3. Complete the risk table & analyze results

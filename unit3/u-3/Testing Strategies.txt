@@ -1,0 +1,139 @@
+
+---
+
+## **1. Testing Strategies (In-depth Explanation)**
+
+Testing strategies define **"how" and "when"** different types of testing should be conducted during the software development lifecycle (SDLC). A good strategy ensures that bugs are caught early, quality is maintained, and resources are used effectively.
+
+### **Main Types of Testing Strategies:**
+
+---
+
+### **1.1 Unit Testing**
+**Definition**: Testing individual units or components of software in isolation to ensure that each part functions correctly.
+
+- **Unit** = smallest testable part (e.g., method/function/class).
+- Typically performed by **developers**.
+- Usually automated using testing frameworks.
+
+**Example**: Testing a function that calculates the area of a circle.
+
+**Subtypes:**
+- **Static Unit Testing**: Checking code without executing it (e.g., code review).
+- **Dynamic Unit Testing**: Code is executed with test inputs.
+
+**Tools**: JUnit (Java), NUnit (.NET), PyTest (Python)
+
+---
+
+### **1.2 Integration Testing**
+**Definition**: Testing multiple units/modules combined to ensure they interact correctly.
+
+- Conducted after unit testing.
+- Focuses on **interfaces and data flow** between modules.
+
+**Subtypes:**
+1. **Big Bang Integration Testing**
+   - All modules are combined and tested together.
+   - Simple, but hard to debug when errors occur.
+
+2. **Incremental Integration Testing**
+   - Modules are integrated and tested one by one.
+   - Easier to isolate defects.
+
+   **Incremental Types:**
+   - **Top-Down**: Starts from the top-level modules and integrates down.
+   - **Bottom-Up**: Starts from the lowest modules and integrates upward.
+   - **Sandwich/Hybrid**: Combines both top-down and bottom-up.
+
+**Example**: Testing login module integrated with database and user profile module.
+
+---
+
+### **1.3 validation Testing**
+**Definition**: Performed to validate that the software meets **business needs** and is ready for release.
+
+- Often done by the **client or end-user**.
+- Final level of testing before going live.
+
+**Subtypes:**
+1. **Alpha Testing**
+   - Conducted in a controlled internal environment by internal staff.
+   - Early feedback, usually before external release.
+
+2. **Beta Testing**
+   - Conducted by real users in a real environment.
+   - Helps gather real-world usability feedback.
+
+**Example**: A beta version of an app released to select users for feedback.
+
+---
+
+
+
+
+### **1.4 Regression Testing**
+**Definition**: Re-running previously executed test cases to ensure **new code changes haven’t broken existing functionality**.
+
+- Necessary after bug fixes, enhancements, or environment changes.
+- Often automated due to frequent execution.
+
+**Tools**: Selenium, QTP, JUnit (with CI/CD)
+
+---
+
+### **1.5 Smoke Testing**
+**Definition**: A quick round of basic tests to confirm whether the software build is stable enough for further testing.
+
+- Also called **"Build Verification Testing"**.
+- Performed on every new build.
+
+**Example**: Checking if login, homepage, and logout work in a new build.
+
+---
+
+### **1.6 Sanity Testing**
+**Definition**: A focused test on specific functionality after minor changes or fixes, to verify that the bug was really fixed and nothing else broke.
+
+- A subset of regression testing.
+- Not as broad as smoke testing.
+
+**Example**: After fixing a bug in the search function, testing only the search feature.
+
+---
+
+
+
+### **1.7 System Testing**
+**Definition**: Testing the complete and fully integrated application as a **whole** system.
+
+- Ensures the software meets the specified requirements.
+- Black-box testing.
+- Performed by **QA team**.
+
+**Types**:
+- **Functional Testing**: Verifies features against requirements.
+- **Non-Functional Testing**:
+  - **Performance Testing**
+  - **Load Testing**
+  - **Stress Testing**
+  - **Security Testing**
+  - **Usability Testing**
+  - **Compatibility Testing**
+
+**Example**: Testing an e-commerce system from login to payment and order confirmation.
+
+---
+
+## **Summary Table**
+
+| Strategy            | Level      | Focus                        | Who Performs      | Automation Friendly |
+|---------------------|------------|-------------------------------|-------------------|----------------------|
+| Unit Testing        | Code-level | Individual components         | Developers        | Yes                  |
+| Integration Testing | Module     | Interface between modules     | Developers/Testers| Yes                  |
+| System Testing      | System     | Entire system functionality   | Testers           | Yes                  |
+| Acceptance Testing  | Business   | Business requirements         | End users         | No (mostly manual)   |
+| Regression Testing  | Any level  | Re-testing after changes      | Testers           | Yes                  |
+| Smoke Testing       | Build-level| Basic checks for stability    | Testers           | Yes                  |
+| Sanity Testing      | Feature    | Verifying specific fix        | Testers           | Yes                  |
+

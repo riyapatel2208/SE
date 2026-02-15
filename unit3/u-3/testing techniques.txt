@@ -1,0 +1,59 @@
+Here's a more concise explanation with additional theory and definitions:
+
+---
+
+## **2. Testing Techniques**
+
+### **Black Box Testing** (Focuses on Input/Output)
+
+**Definition**: In black box testing, the internal workings of the application are not known to the tester. The tester focuses on providing inputs and verifying the output, without any knowledge of the code structure.
+
+- **Equivalence Partitioning**:
+  - **Definition**: Dividing input data into valid and invalid partitions so that one test case from each partition represents the entire partition.
+  - **Example**: For age 18–60, test with 20 (valid), 65 (invalid), and -5 (invalid).
+
+- **Boundary Value Analysis**:
+  - **Definition**: Focuses on testing at the boundaries of input ranges where errors are most likely to occur.
+  - **Example**: For age 18–60, test with 18 (min), 60 (max), 17 (below min), and 61 (above max).
+
+- **Decision Table Testing**:
+  - **Definition**: Involves testing combinations of multiple conditions and corresponding actions using a decision table.
+  - **Example**: For login, test combinations of correct/incorrect username and password to verify proper system behavior.
+
+- **State Transition Testing**:
+  - **Definition**: Used to test systems that behave differently based on their current state. It ensures correct transitions between states.
+  - **Example**: A light switch toggles between ON and OFF states, testing all state transitions.
+
+---
+
+### **White Box Testing** (Focuses on Internal Logic)
+
+**Definition**: In white box testing, the tester has full knowledge of the code and focuses on testing the internal logic, structure, and flow of the program.
+
+- **Statement Coverage**:
+  - **Definition**: Ensures that every individual statement in the code is executed at least once during testing.
+  - **Example**: Test all lines in an `if` statement to ensure coverage.
+
+- **Branch Coverage**:
+  - **Definition**: Ensures that every decision point (if/else, case) in the code is tested with both true and false outcomes.
+  - **Example**: Test both true and false branches of an `if` condition.
+
+- **Path Coverage**:
+  - **Definition**: Ensures all possible paths through the code, including loops and conditionals, are executed at least once.
+  - **Example**: Test every possible execution path in a loop or conditional structure.
+
+- **Loop Testing**:
+  - **Definition**: Focuses on testing loops with 0, 1, and multiple iterations to check for correct behavior.
+  - **Example**: Test a `for` loop with no iterations, one iteration, and multiple iterations.
+
+---
+
+### **Gray Box Testing** (Combines Both)
+
+**Definition**: Gray box testing combines aspects of both black box and white box testing. The tester has partial knowledge of the internal workings of the system but still tests it primarily from an input/output perspective.
+
+- **Example**: Testing an API where you know the internal structure (e.g., database schema) but test it as a black-box user (based on inputs and outputs).
+
+---
+
+This version includes both definitions and examples, giving a balanced view of the key testing techniques. Let me know if you'd like to dive deeper into any specific technique!
