@@ -1,0 +1,75 @@
+Software Architecture Design
+
+<<What is Software Architecture?>>  
+- Represents software structure for analysis, risk reduction & alternative evaluation.  
+<<Importance of Software Architecture>>  
+- Facilitates communication among stakeholders.  
+- Highlights critical design decisions.  
+- Provides a simple, structured model of the system.  
+
+<<Software Architecture Components>>
+
+<1) Data Design>  
+- Models data at a high level, refined for implementation.  
+- Influences architecture, software, and databases.  
+- Involves **Data Modeling, Data Structures, Databases, Data Warehouses**:  
+  - **Data Modeling**: Uses ER diagrams & data dictionary.  
+  - **Data Structures**: Converts data model into structures.  
+  - **Databases**: Application-level storage & retrieval.  
+  - **Data Warehouses**: Independent, historical business data storage for mining.  
+Data Design Principles**  
+1. Apply systematic analysis to data.  
+2. Identify data structures & operations.  
+3. Maintain a **data dictionary**.  
+4. Defer low-level design until later stages.  
+5. Follow **information hiding** principles.  
+6. Use a **library of reusable data structures**.  
+7. Ensure language support for abstract data types.  
+
+<2) Architectural Styles>
+
+Data-Centered Architecture**  
+- Central **data repository** accessed by clients.  
+- **Client-server model** for integration & notification.  
+Data-Flow Architecture**  
+- Data transforms through **pipes & filters**.  
+- **Batch sequential processing** for structured transformation.  
+Call & Return Architecture**  
+- **Main program/subprogram** hierarchy.  
+- **Remote Procedure Call (RPC)** for distributed execution.  
+Object-Oriented Architecture**  
+- **Encapsulation** & **message passing** between objects.  
+Layered Architecture**  
+- Hierarchical layers from **user interface** to **OS interactions**.  
+Architectural Refinement**  
+- Choose the best style based on requirements.  
+- Assess design using **control & data flow considerations**.  
+Analyzing Architectural Alternatives** (ATAM - Architecture Trade-off Analysis Method)  
+1. Collect **use-case scenarios**.  
+2. Define **requirements, constraints & environment**.  
+3. Describe **architecture views** (module, process, data flow).  
+4. Evaluate **quality attributes** (reliability, performance, security, etc.).  
+5. Identify **sensitivity points** for quality changes.  
+6. Critique **architecture via sensitivity analysis**.  
+Mapping Requirements to Software Architecture**  
+- Uses **structured design** to convert **DFD to architecture**.  
+- **Steps**:  
+  1. Identify **information flow type**.  
+  2. Define **flow boundaries**.  
+  3. Map **DFD to program structure**.  
+  4. Define **control hierarchy**.  
+  5. Refine using **design heuristics**.  
+  6. Optimize & elaborate the **architecture**.  
+Transform Flow & Transform Mapping**  
+- **Transform Flow**: Converts external inputs into internal processing & outputs.  
+- **Transaction Flow**: Triggers multiple data paths based on events.  
+- **Transform Mapping Steps**:  
+  1. Review system model & DFD.  
+  2. Identify **transform center & flow boundaries**.  
+  3. Perform **first-level & second-level factoring**.  
+  4. Refine structure for better **modularity & maintainability**.  
+Supplementary Tasks**  
+- Document **processing steps & interfaces**.  
+- Define **local & global data structures**.  
+- Consider **design constraints & optimizations**.  
+- Conduct **design reviews for quality assurance**.

@@ -1,0 +1,88 @@
+### **Software Design Concepts**  
+
+1. Abstraction 
+- Helps create modular solutions at different levels.  
+- High-level abstraction: Uses problem domain language.  
+- Mid-level abstraction: Includes some procedural details.  
+- Low-level abstraction: Directly implementable code.  
+- Procedural Abstraction: Defines a sequence of instructions for specific tasks (e.g., "Open a door").  
+- Data Abstraction: Defines data objects with attributes (e.g., a door has type, weight).  
+- Control Abstraction: Manages program execution flow.  
+
+2. Refinement
+- Top-down design approach, breaking functions into smaller tasks.  
+- Starts with a function statement without internal details.  
+- Gradually adds details until implementation level.  
+- Complementary to abstraction—abstraction hides details, refinement reveals them.  
+
+3. Modularity  
+- Divides software into independent components (modules).  
+- Reduces complexity and improves maintainability.  
+- Optimal modularization minimizes cost and effort.  
+- Key criteria for effective modular design:  
+  - Decomposability (break into subproblems).  
+  - Composability (reuse modules in new systems).  
+  - Understandability(each module is self-contained).  
+  - Continuity (small changes affect only one module).  
+  - Protection (minimizes error propagation).  
+
+4. Software Architecture 
+- Defines overall structure and integrity of the software.  
+- Key properties:  
+  - Structural (component interactions).  
+  - Extra-functional (performance, security, scalability).  
+  - Reusability (common design patterns).  
+- Architectural models:  
+  - Structural Model (component organization).  
+  - Framework Model (design abstraction).  
+  - Dynamic Model (runtime behavior).  
+  - Process Model (business/technical processes).  
+  - Functional Model (hierarchical functions).  
+
+5. Control Hierarchy
+- Defines organization of program components and control flow.  
+- Does not specify execution order, only structure.  
+- Control structure elements:  
+  - Fan-out (modules controlled by a given module).  
+  - Fan-in (modules controlling a given module).  
+  - Superordinate (a module that controls others).  
+  - Subordinate (a module being controlled).  
+- Key characteristics:  
+  - Visibility (which components a module can invoke).  
+  - Connectivity (directly connected components).  
+
+6. Structural Partitioning  
+- Horizontal Partitioning:  
+  - Divides major functions into independent branches.  
+  - Easier testing, maintenance, and extensibility.  
+  - Increases data exchange and control complexity.  
+- Vertical Partitioning (Factoring):  
+  - Control flows top-down (higher modules control lower ones).  
+  - Easier maintenance of lower modules.  
+  - More impact when modifying top control modules.  
+
+7. Data Structure 
+- Defines logical relationships between data elements.  
+- Scalar Items: Single data elements.  
+- Vectors: Collections of scalars in different dimensions.  
+- Linked Lists: Flexible, dynamically linked data structures.  
+- Hierarchical Data Structures: Multi-linked (e.g., stacks, trees).  
+
+8. Software Procedure  
+- Defines processing flow within a module.  
+- Includes:  
+  - Precise sequence of events.  
+  - Decision points (conditional branches).  
+  - Repetitive operations(loops).  
+- Establishes relationships between higher-level functions and sub-modules.  
+
+9. Information Hiding  
+- Each module encapsulates internal details, exposing only necessary information.  
+- Minimizes dependencies between modules.  
+- Benefits:  
+  - Easier testing and maintenance.  
+  - Reduces complexity and error propagation.  
+  - Improves modularity and security.  
+
+Conclusion 
+Applying these design concepts ensures structured, modular, scalable, and maintainable software, improving efficiency and reducing complexity.
